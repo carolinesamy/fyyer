@@ -1,6 +1,11 @@
 {% extends 'layouts/main.html' %}
 {% block title %}Fyyur{% endblock %}
 {% block content %}
+{% if data is defined %}
+{{ data.genres_list }}
+{{ data.genres }}
+{% endif%}
+
 <div class="row">
 	<div class="col-sm-6">
 		<h1>Fyyur 🔥</h1>
