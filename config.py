@@ -11,3 +11,4 @@ DEBUG = True
 
 # TODO IMPLEMENT DATABASE URL
 SQLALCHEMY_DATABASE_URI = 'postgresql:///fyyur'
+#this url works fine with me but postgresql://username:password@server/db  NOT WORK IN MY MACHINE
